@@ -2,7 +2,10 @@
   <h1>Rapa Gift</h1>
 </a>
 
-<a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+<a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>({{items.length}})</a>
+<!-- <div class="cart-item" *ngFor="let item of items">
+   <span>{{ items.length }}</span>  
+</div> -->
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
